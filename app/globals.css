@@ -167,15 +167,11 @@ h2 {
   
 .About .hero-image, .hero-content {
   opacity: 0;
-  animation: slideUp 0.4s ease 0.2s;
-  animation-direction: forwards;
-  animation-iteration-count: 1;
+  animation: slideUp 0.4s ease 0.2s forwards;
 }
 .whiteside-tester-ad .hero-content {
   opacity: 0;
-  animation: slideUp 0.6s ease 0.8s;
-  animation-direction: forwards;
-  animation-iteration-count: 1;
+  animation: slideUp 0.6s ease 0.8s forwards;
 }
 
 .hero-image-shadow {
@@ -197,6 +193,7 @@ h2 {
 
 .showcase {
   perspective: 1800px;
+  animation: reveal 1s ease-out forwards;
 }
 
 .showcase img, .hero-image-shadow {
@@ -204,8 +201,6 @@ h2 {
   height: 100%;
   object-fit: cover;
   transform-origin: center bottom;
-  animation: reveal 1s ease-out forwards;
-  animation-iteration-count: 1;
 }
 
 @keyframes reveal {
