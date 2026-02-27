@@ -2,6 +2,7 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+  trailingSlash: true,
   output: "export",
   images: {
     loader: "custom",
