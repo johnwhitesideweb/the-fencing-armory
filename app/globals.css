@@ -167,11 +167,15 @@ h2 {
   
 .About .hero-image, .hero-content {
   opacity: 0;
-  animation: slideUp 0.4s ease 0.2s forwards;
+  animation: slideUp 0.4s ease 0.2s;
+  animation-direction: forwards;
+  animation-iteration-count: 1;
 }
 .whiteside-tester-ad .hero-content {
   opacity: 0;
-  animation: slideUp 0.6s ease 0.8s forwards;
+  animation: slideUp 0.6s ease 0.8s;
+  animation-direction: forwards;
+  animation-iteration-count: 1;
 }
 
 .hero-image-shadow {
@@ -201,6 +205,7 @@ h2 {
   object-fit: cover;
   transform-origin: center bottom;
   animation: reveal 1s ease-out forwards;
+  animation-iteration-count: 1;
 }
 
 @keyframes reveal {
