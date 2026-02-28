@@ -119,6 +119,7 @@ h2 {
   align-items: center;
   justify-items: center;
   gap: 80px;
+  perspective: 1800px;
 }
 
 .hero-content h1 {
@@ -192,7 +193,6 @@ h2 {
 }
 
 .showcase {
-  perspective: 1800px;
   animation: reveal 1s ease-out forwards;
 }
 
