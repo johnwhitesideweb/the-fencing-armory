@@ -597,6 +597,26 @@ h2 {
   color: var(--gray);
 }
 
+.socials {
+  margin-bottom: 12px;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--gray);
+  transition: fill 0.2s ease;
+}
+
+.socials a:hover .icon {
+  fill: #ffffff;
+}
+
 /* Responsive */
 @media (max-width: 1000px) {
   .hero-grid {
@@ -839,4 +859,18 @@ h2 {
   .team-image {
     height: 40%;
   }
+}
+
+.gradient-glow {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  animation: fadeIn 3s ease-out forwards;
+  height: 100vh;
+
+  background:
+    radial-gradient(circle at 80% 40%, #ffffff1a, #0000 40%), 
+    radial-gradient(circle at 80% 25%, #ffffff1a, #0000 40%), 
+    radial-gradient(circle at 70% 60%, #ffffff1a, #0000 40%)
 }

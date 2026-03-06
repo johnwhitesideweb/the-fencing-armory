@@ -8,6 +8,7 @@ const WhitesideTesterAd = () => {
 
   return (
     <section className="whiteside-tester-ad hero section">
+      <div className="gradient-glow"></div>
       <div className="container hero-grid">
         <div className="hero-content">
           <span className="badge">NEW</span>
