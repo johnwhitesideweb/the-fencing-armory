@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 export const useHash = () => {
-  const [hash, setHash] = useState(() => window.location.hash);
+  const [hash, setHash] = useState('');
 
   useEffect(() => {
     if (!window) return; // Ensure window is available
