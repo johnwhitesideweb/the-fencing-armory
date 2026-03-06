@@ -531,7 +531,7 @@ h2 {
 
 .bottom-animate {
   opacity: 0;
-  animation: fadeIn 0.4s ease 1.2s 1 forwards;
+  animation: fadeIn 0.4s ease 1.6s 1 forwards;
 }
 
 .end-animation {
