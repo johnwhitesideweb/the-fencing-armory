@@ -529,6 +529,16 @@ h2 {
   transition: transform 0.3s ease, border 0.3s ease;
 }
 
+.bottom-animate {
+  opacity: 0;
+  animation: fadeIn 0.4s ease 1.2s 1 forwards;
+}
+
+.end-animation {
+  opacity: 1;
+  animation: fadeIn 0.4s ease 0s 1 forwards;
+}
+
 .team-card:hover {
   transform: translateY(-6px);
   border: 1px solid #333;
@@ -704,7 +714,7 @@ h2 {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(4px);
   }
   to {
     opacity: 1;
